@@ -10,10 +10,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnGo = findViewById<Button>(R.id.btnGo)
+        val btnGo = findViewById<Button>(R.id.btnGo) //Relaciona el botón con la variable
+        //Metodo del botón btnGo, cuando es presioando
         btnGo.setOnClickListener{
-            val intent = Intent(this, Movie::class.java)
-            startActivity(intent)
+            val intent = Intent(this, Movie::class.java)    //Se crea un Intent relacionando con la clase Movie.kt
+            startActivity(intent) //Lanza el Intent
         }
 
     }
