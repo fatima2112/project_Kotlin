@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hidden Figures</string>
+    <string name="title">Favorite Movie</string>
+    <string name="buttonGo">NEXT</string>
+    <string name="information">
+        "
+        Gender: Drama / Historical Drama \n
+        Release: December 25, 2016 \n
+        Running Time: 127 minutes \n
+        Directed by: Theodore Melfi \n
+        Based on: Hidden Figures by Margot Lee Shetterly \n
+        About: African American female mathematicians \n
+        who worked at NASA during the Space Race.
+        "
+    </string>
+
+</resources>
