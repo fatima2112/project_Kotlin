@@ -10,8 +10,6 @@ class Movie : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie)
 
-        val imvposter = findViewById<ImageView>(R.id.imvposter) //Relaciona la imagen con la variable
 
-        imvposter.
     }
 }
