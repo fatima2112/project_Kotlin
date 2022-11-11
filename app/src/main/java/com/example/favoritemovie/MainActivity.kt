@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         btnGo.setOnClickListener{
             val intent = Intent(this, Movie::class.java)    //Se crea un Intent relacionando con la clase Movie.kt
             startActivity(intent) //Lanza el Intent
-            overridePendingTransition(R.anim.animation, R.anim.animation)
+            overridePendingTransition(R.anim.animation, R.anim.animation) //Se toma la animación de los recursos, como entrada y salida
         }
 
     }
